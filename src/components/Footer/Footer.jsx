@@ -24,9 +24,19 @@ export default function Footer() {
                                         Home
                                     </Link>
                                 </li>
-                                <li>
+                                <li className="mb-4">
                                     <Link to="/about" className="hover:underline">
                                         About
+                                    </Link>
+                                </li>
+                                <li  className="mb-4">
+                                    <Link to="/contact" className="hover:underline">
+                                        Contact
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/github" className="hover:underline">
+                                        GitHub
                                     </Link>
                                 </li>
                             </ul>
@@ -36,7 +46,7 @@ export default function Footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                 
-                                    <Link to="/github" className="hover:underline">
+                                    <Link to="/" className="hover:underline">
                                         GitHub
                                     </Link>
                                 
